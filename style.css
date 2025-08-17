@@ -1,0 +1,32 @@
+html{
+    direction: rtl;
+    font-size: 100%;
+}
+
+body{
+    background-color: red;
+}
+
+.navbar{
+    background-color: white;
+    display: flex;
+    height: 50px;
+}
+
+.container{
+    max-width: 1400px;
+    width: 100%;
+    margin: auto;
+}
+
+.navbar__section{
+    display: flex;
+}
+
+.navbar__links{
+    display: flex;
+}
+
+.navbar__logo{
+    margin-left: 1rem;
+}
