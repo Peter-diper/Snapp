@@ -1,32 +1,88 @@
+@import url('./Vazirmatn-font-face.css');
+
 html{
     direction: rtl;
     font-size: 100%;
+    font-family: "Vazirmatn";
 }
 
 body{
-    background-color: red;
+    background-color: rgb(55 187 126);
 }
+
+/* Base container */
+.container {
+  width: 100%;
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: 1rem;
+  padding-right: 1rem;
+}
+
+/* Small devices (default mobile-first) */
+@media (min-width: 640px) {
+  .container {
+    max-width: 100%;
+  }
+}
+
+/* Medium devices (tablets) */
+@media (min-width: 768px) {
+  .container {
+    max-width: 720px;
+  }
+}
+
+/* Large devices (desktops) */
+@media (min-width: 1024px) {
+  .container {
+    max-width: 980px;
+  }
+}
+
+/* Extra large devices */
+@media (min-width: 1280px) {
+  .container {
+    max-width: 1250px;
+  }
+}
+
+/* 2XL devices (big monitors) */
+@media (min-width: 1400px) {
+  .container {
+    max-width:1350px;
+  }
+}
+
+
 
 .navbar{
     background-color: white;
     display: flex;
-    height: 50px;
-}
-
-.container{
-    max-width: 1400px;
-    width: 100%;
-    margin: auto;
+    height: 6rem;
+    box-shadow: -2px -3px 4px 0px rgba(0, 0, 0, 0.24);
 }
 
 .navbar__section{
     display: flex;
+    align-items: center;
+    height: 100%;
 }
 
 .navbar__links{
     display: flex;
+    gap: 2rem ;
+    font-size: 15.2px;
+    font-weight: 400;
+    color: rgb(70, 70, 70);
+    
+    
 }
-
 .navbar__logo{
     margin-left: 1rem;
+    
+}
+.navbar__logo img{
+    width: 90px;
+    height: 32px;
 }
