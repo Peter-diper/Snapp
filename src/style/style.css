@@ -12,8 +12,7 @@ body{
     width: 100%;
     margin-right: auto;
     margin-left: auto;
-    padding-left: 12px;
-    padding-right: 12px;
+    padding : 0 12%;
 }
 
 /*extra SMAL screen */
@@ -50,16 +49,23 @@ body{
 }
 
 /* big screen */
-@media (min-width: 1375px) {
+@media (min-width: 1400px) {
     
    .container{
-    max-width: 1275px;
+    max-width: 1440px;
+   }
+}
+/* 2xbig screen */
+@media (min-width: 1600px) {
+    
+   .container{
+    max-width: 1660px;
    }
 }
 
 
 .navbar{
-    height: 5.6rem;
+    height: 5rem;
     background-color: aliceblue;
     display: flex;
     align-items: center;
@@ -96,8 +102,20 @@ body{
 
 .hero-section__image{
     background: url(../img/hero-section.jpg) center center/cover ;
-    height: 40vh;
+    min-height: 40vh;
     width: 50%;
     transform: rotatey(180deg);
 }
 
+.hero-section__intro__tagline{
+    font-size: 2rem;
+    font-weight: 700;
+    line-height: 4.0625rem;
+    margin-bottom: 1rem;
+}
+
+.hero-section__intro__about{
+    font-size: 1.25rem;
+    line-height: 2.1875rem;
+    margin-bottom: 1rem;
+}
