@@ -5,7 +5,7 @@ html{
 }
 
 body{
-    background-color: #1cc47e;
+    background-color: #ffffff;
 }
 
 .container{
@@ -118,4 +118,55 @@ body{
     font-size: 1.25rem;
     line-height: 2.1875rem;
     margin-bottom: 1rem;
+}
+
+.hero-section__sendlink{
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+    
+}
+/* btn send */
+.hero-section__sendlink > button{
+    color: #1cc47e;
+    background-color: white;
+    border: none;
+    border-radius: .4rem;
+    font-family: inherit;
+    font-weight: 700;
+    flex: 0 0 18%;
+    height: 2.3rem;
+    /* margin-right: 1rem; */
+}
+
+.hero-section__intro__input{
+    display: flex;
+    align-items: center;
+    border-bottom: 1px solid rgb(255, 255, 255);
+    flex: 0 0 50%;
+    
+}
+
+
+.hero-section__intro__input > input{
+    background-color: #21aa58;
+    font-family: inherit;
+    border: none;
+    color:white ;
+    outline: none;
+    line-height: 2.3rem;
+    padding-right:.3rem ;
+    width: 100%;
+}
+
+.hero-section__intro__input > input::placeholder{
+    color: white;
+}
+
+.hero-section__intro__input > .dot{
+    height: .5rem;
+    width: .5rem;
+    background-color: white;
+    border-radius: 5000rem;
+    margin-left: 0.5rem;
 }
