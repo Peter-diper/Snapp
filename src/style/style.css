@@ -78,3 +78,26 @@ body{
     color: #636363;
     font-weight:300 ;
 }
+
+
+/*
+* hero section
+*/
+.hero-section{
+    display: flex;
+}
+
+.hero-section__intro{
+    color: rgb(255, 255, 255);
+    background-color: #21aa58;
+    width: 50%;
+    
+}
+
+.hero-section__image{
+    background: url(../img/hero-section.jpg) center center/cover ;
+    height: 40vh;
+    width: 50%;
+    transform: rotatey(180deg);
+}
+
