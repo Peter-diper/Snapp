@@ -66,7 +66,7 @@ body{
 
 .navbar{
     height: 5rem;
-    background-color: aliceblue;
+    background-color: white;
     display: flex;
     align-items: center;
     box-shadow: 5px -16px 20px 9px #0000008c;
@@ -74,15 +74,24 @@ body{
 
 .navbar__section{
     display: flex;
-    gap: 2rem;
+    gap: 1.5rem;
+    align-items: center;
 }
 
 .navbar__links{
+    margin-bottom: .3rem;
     display: flex;
-    gap: 1.5rem;
-    font-size: 1rem;
+    gap: 2.2rem;
+    font-size: .8rem;
     color: #636363;
     font-weight:300 ;
+    align-items: center;
+}
+
+
+.navbar__logo img{
+    width :4.5rem ;
+    align-self: end;
 }
 
 
@@ -146,7 +155,6 @@ body{
     flex: 0 0 50%;
     
 }
-
 
 .hero-section__intro__input > input{
     background-color: #21aa58;
