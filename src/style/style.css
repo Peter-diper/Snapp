@@ -63,6 +63,15 @@ body{
    }
 }
 
+input,button{
+    font-family: inherit;
+}
+a{
+    text-decoration: none;
+}
+
+
+
 
 .navbar{
     height: 5rem;
@@ -106,6 +115,11 @@ body{
     color: rgb(255, 255, 255);
     background-color: #21aa58;
     width: 50%;
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    padding: 1.5rem ;
+    padding-right: 15%; 
     
 }
 
@@ -114,19 +128,21 @@ body{
     min-height: 40vh;
     width: 50%;
     transform: rotatey(180deg);
+    flex-basis: 50%;
+    flex-shrink: 0;
 }
 
 .hero-section__intro__tagline{
-    font-size: 2rem;
+    font-size: 1.9rem;
     font-weight: 700;
-    line-height: 4.0625rem;
-    margin-bottom: 1rem;
+    line-height: 3rem;
 }
 
 .hero-section__intro__about{
-    font-size: 1.25rem;
+    font-size: .95rem;
+    font-weight: 400;
     line-height: 2.1875rem;
-    margin-bottom: 1rem;
+
 }
 
 .hero-section__sendlink{
@@ -134,25 +150,35 @@ body{
     align-items: center;
     gap: 1rem;
     
+    margin-bottom: 1rem;
+    
+    
 }
 /* btn send */
 .hero-section__sendlink > button{
-    color: #1cc47e;
+    color: #55d195;
     background-color: white;
     border: none;
-    border-radius: .4rem;
-    font-family: inherit;
-    font-weight: 700;
-    flex: 0 0 18%;
-    height: 2.3rem;
+    border-radius: .3rem;
+    font-size: .7rem;
+    font-weight: bold;
+    flex: 0 0 25%;
+    height: 1.99rem;
     /* margin-right: 1rem; */
+    cursor: pointer;
 }
+
+.hero-section__sendlink > button:hover{
+    background-color: rgba(255, 255, 255, 0.928);
+}
+
 
 .hero-section__intro__input{
     display: flex;
     align-items: center;
     border-bottom: 1px solid rgb(255, 255, 255);
     flex: 0 0 50%;
+    height: 1.99rem;
     
 }
 
@@ -162,19 +188,38 @@ body{
     border: none;
     color:white ;
     outline: none;
-    line-height: 2.3rem;
     padding-right:.3rem ;
     width: 100%;
+    height: 1.5rem;
 }
 
 .hero-section__intro__input > input::placeholder{
-    color: white;
+    color: rgba(255, 255, 255, 0.648);
 }
 
 .hero-section__intro__input > .dot{
-    height: .5rem;
-    width: .5rem;
+    height: .37rem;
+    width: .37rem;
     background-color: white;
     border-radius: 5000rem;
     margin-left: 0.5rem;
+}
+
+.goto-webapp{
+ 
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #21aa58;
+    border: 1px solid rgba(255, 255, 255, 0.8);
+    border-radius: .3rem;
+    color: white;
+    width: 50%;
+    font-size: .9rem;
+    font-weight: 600;
+    padding: .4rem 0;
+    cursor: pointer;
+}
+.goto-webapp:hover{
+    background-color: rgba(255, 255, 255, 0.125);
 }
