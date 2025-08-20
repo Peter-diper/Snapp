@@ -12,55 +12,57 @@ body{
     width: 100%;
     margin-right: auto;
     margin-left: auto;
-    padding : 0 12%;
+    padding-right: 9%;
+    padding-left: 9%;
+    box-sizing: ;
 }
 
 /*extra SMAL screen */
-@media (min-width: 360px) {
-    
-   .container{
-    max-width: 100%;
-   }
+@media (max-width: 575.98px) {
+    .container {
+        max-width: 100%;
+    }
 }
 
 /* SMAL screen */
-@media (min-width: 480px) {
-    
-   .container{
-    max-width: 100%;
-   }
+@media (min-width: 576px) {
+    .container {
+        max-width: 540px;
+    }
 }
 
 /* tablet screen */
 @media (min-width: 768px) {
-    
-   .container{
-    max-width: 100%;
-   }
+    .container {
+        max-width: 720px;
+    }
 }
 
+
 /* normal screen */
-@media (min-width: 1000px) {
-    
-   .container{
-    max-width: 968px;
-   }
-   
+@media (min-width: 992px) {
+    .container {
+        max-width: 960px;
+    }
 }
 
 /* big screen */
-@media (min-width: 1400px) {
-    
-   .container{
-    max-width: 1440px;
-   }
+@media (min-width: 1200px) {
+    .container {
+        max-width: 1140px;
+    }
 }
 /* 2xbig screen */
+@media (min-width: 1400px) {
+    .container {
+        max-width: 1440px; /* Increased width for larger screens */
+    }
+}
+
 @media (min-width: 1600px) {
-    
-   .container{
-    max-width: 1660px;
-   }
+    .container {
+        max-width: 1640px; /* Increased width for larger screens */
+    }
 }
 
 input,button{
@@ -222,4 +224,25 @@ a{
 }
 .goto-webapp:hover{
     background-color: rgba(255, 255, 255, 0.125);
+}
+
+/** 
+app downlaod
+*/
+
+.app-downlaod__list{
+    display: grid;
+    width: 100%;
+    grid-template-columns: repeat(4 ,auto );
+    min-height: 30vh;
+    align-items: center;
+    justify-content: space-around;
+    padding:0 4rem;
+    padding-top: 2rem;
+
+}
+
+
+.app-downlaod__list__image{
+    width: 130px;    
 }
