@@ -12,9 +12,8 @@ body{
     width: 100%;
     margin-right: auto;
     margin-left: auto;
-    padding-right: 9%;
-    padding-left: 9%;
-    box-sizing: ;
+    padding-right: 10%;
+    padding-left: 10%;
 }
 
 /*extra SMAL screen */
@@ -236,13 +235,77 @@ app downlaod
     grid-template-columns: repeat(4 ,auto );
     min-height: 30vh;
     align-items: center;
-    justify-content: space-around;
-    padding:0 4rem;
+    justify-content: center;
+    gap: 11rem;
+    /* padding:0    2rem; */
     padding-top: 2rem;
 
 }
 
 
 .app-downlaod__list__image{
-    width: 130px;    
+    width: 160px;    
+}
+
+
+/* 
+* intro snapp apps link
+*/
+
+
+.snapp-intro-app-link{
+    background-color:#F2F5F8 ;
+    padding-bottom: 2.5rem;
+    
+}
+
+.snapp-intro-app-link_title{
+    text-align: center;
+    font-size: 2.3rem;
+    font-weight: bold;
+    color: #414141;
+    padding: 2.5rem 0;
+    padding-top: 2.5rem;
+}
+
+.snapp-intro-app-items-box {
+    display: grid;
+    grid-template-columns: repeat(4 , 1fr);
+    gap: 2rem;
+
+}
+
+.snapp-intro-app-items-box > a{
+    color: inherit;
+
+}
+
+
+.snapp-intro-app-item{
+    background-color: #ffffff;
+    display: flex;
+    gap: .35rem;
+    padding: .7rem;
+    align-items: center;
+    border-radius: 16px;
+}
+
+.snapp-intro-app-item >img{
+    width: 62px;
+    height: 62px;
+}
+.snapp-intro-app-item_info{
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+.snapp-intro-app-item_info > h3{
+    font-size: 0.8rem;
+    font-weight: 700;
+}
+
+.snapp-intro-app-item_info > p{
+    font-size: 0.775rem;
+    font-weight: 700;
+    color: #0000004d;
 }
