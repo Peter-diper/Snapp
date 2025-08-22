@@ -1,6 +1,6 @@
 html{
     font-size: 100%;
-    font-family: vazirmatn;
+    font-family: IRANSansX;
     direction: rtl;
 }
 
@@ -231,20 +231,19 @@ app downlaod
 
 .app-downlaod__list{
     display: grid;
-    width: 100%;
     grid-template-columns: repeat(4 ,auto );
     min-height: 30vh;
     align-items: center;
     justify-content: center;
-    gap: 11rem;
+    gap: 10rem;
     /* padding:0    2rem; */
-    padding-top: 2rem;
+    padding: 6.8rem 4rem;
 
 }
 
 
 .app-downlaod__list__image{
-    width: 160px;    
+    width: 140px;    
 }
 
 
@@ -272,6 +271,7 @@ app downlaod
     display: grid;
     grid-template-columns: repeat(4 , 1fr);
     gap: 2rem;
+    padding: 0px 4.1rem;
 
 }
 
@@ -285,7 +285,7 @@ app downlaod
     background-color: #ffffff;
     display: flex;
     gap: .35rem;
-    padding: .7rem;
+    padding: 0.5rem 0.3rem;
     align-items: center;
     border-radius: 16px;
 }
@@ -308,4 +308,86 @@ app downlaod
     font-size: 0.775rem;
     font-weight: 700;
     color: #0000004d;
+}
+
+
+
+
+/* 
+* answer to all need section
+*/
+.answer-to-all-need-section{
+    display: flex;
+    flex-direction: row-reverse;
+    
+
+}
+
+.answer-to-all-need-section__intro{
+    width: 50%;
+    padding: 2rem;
+    padding-left: 15rem;
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+
+.answer-to-all-need-section__intro > h3{
+    color: #4C4B49;
+    font-size: 1.25rem;
+    font-weight: bolder;
+
+}
+
+.answer-to-all-need-section__intro > p{
+    font-size: .7rem;
+    font-weight: 400;
+    line-height: 1.7;
+    color: #0000008f;
+    
+
+}
+
+.answer-to-all-need__image{
+    background: url(../img/super-app.jpg) center center /cover;
+    min-height: 50vh;
+    width: 50%;
+    flex: 0 0 50%;
+
+}
+
+.answer-to-all-need__benefit__items{
+display: grid;
+grid-template-columns: repeat(3,1fr);
+gap: 4rem;
+padding: 0 8rem;
+
+}
+
+.answer-to-all-need__benefit__item{
+    display: grid;
+    gap: 1rem;
+}
+
+.answer-to-all-need__benefit__cover{
+    background-color: #f2f7fa;
+    border-radius: 1rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.answer-to-all-need__benefit__titel{
+    font-weight: 700;
+    color: rgba(0, 0, 0, 0.714);
+    font-size: .860rem;
+
+}
+
+.answer-to-all-need__benefit__descreption{
+    font-weight: 400;
+    font-size: .560rem;
+    color: rgba(0, 0, 0, 0.513);
+    line-height: 1.7;
+
 }
