@@ -4,7 +4,14 @@ html{
     direction: rtl;
 }
 
-
+:root{
+    --text-xs: .62rem;
+    --text-sm: .775rem ;
+    --text-md: .800;
+    --text-lg: 1.125rem ;
+    --text-xlg:1.9rem;
+    --text-2xlg: 2.125rem ;
+}
 
 p{
     line-height: 1.7;
@@ -95,7 +102,7 @@ a{
     margin-bottom: .3rem;
     display: flex;
     gap: 2.2rem;
-    font-size: .8rem;
+    font-size: var(--text-md);
     color: #636363;
     font-weight:300 ;
     align-items: center;
@@ -137,13 +144,13 @@ a{
 }
 
 .hero-section__intro__tagline{
-    font-size: 1.9rem;
-    font-weight: 700;
+    font-size: var(--text-xlg);
+    font-weight: 800;
     line-height: 3rem;
 }
 
 .hero-section__intro__about{
-    font-size: .95rem;
+    font-size: var(--text-md);
     font-weight: 400;
     line-height: 2.1875rem;
 
@@ -153,7 +160,6 @@ a{
     display: flex;
     align-items: center;
     gap: 1rem;
-    
     margin-bottom: 1rem;
     
     
@@ -164,7 +170,7 @@ a{
     background-color: white;
     border: none;
     border-radius: .3rem;
-    font-size: .7rem;
+    font-size: var(--text-sm);
     font-weight: bold;
     flex: 0 0 25%;
     height: 1.99rem;
@@ -219,7 +225,7 @@ a{
     border-radius: .3rem;
     color: white;
     width: 50%;
-    font-size: .9rem;
+    font-size: var(--text-md);
     font-weight: 600;
     padding: .4rem 0;
     cursor: pointer;
@@ -263,7 +269,7 @@ app downlaod
 
 .snapp-intro-app-link_title{
     text-align: center;
-    font-size: 2.3rem;
+    font-size: var(--text-2xlg);
     font-weight: bold;
     color: #414141;
     padding: 2.5rem 0;
@@ -303,12 +309,12 @@ app downlaod
     gap: 1rem;
 }
 .snapp-intro-app-item_info > h3{
-    font-size: 0.8rem;
+    font-size: var(--text-sm);
     font-weight: 700;
 }
 
 .snapp-intro-app-item_info > p{
-    font-size: 0.775rem;
+    font-size: var(--text-sm);
     font-weight: 700;
     color: #0000004d;
 }
@@ -349,12 +355,12 @@ app downlaod
 .snapp-for-all-need-section_intro > h2{
     font-weight: bolder;
     margin-bottom: 1rem;
-    font-size: 1.11rem;
+    font-size: var(--text-lg);
 }
 
 .snapp-for-all-need-section_intro > p{
     font-weight: 300;
-    font-size: .775rem;
+    font-size: var(--text-xs);
 }
 
 .snapp-benefits{
@@ -386,12 +392,12 @@ app downlaod
 
 .snapp-benefits_title{
     font-weight: bold;
-    font-size: .85rem;
+    font-size: var(--text-md);
     margin: 1rem 0 ;
 }
 
 .snapp-benefits_descreption{
     font-weight: 300;
-    font-size: .62rem;
+    font-size: var(--text-xs);
 }
 
