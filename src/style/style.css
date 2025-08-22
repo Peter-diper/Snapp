@@ -4,9 +4,7 @@ html{
     direction: rtl;
 }
 
-body{
-    background-color: #ffffff;
-}
+
 
 p{
     line-height: 1.7;
@@ -276,7 +274,7 @@ app downlaod
     display: grid;
     grid-template-columns: repeat(4 , 1fr);
     gap: 2rem;
-    padding: 0px 4.1rem;
+    padding: 0px 12.1rem;
 
 }
 
@@ -321,17 +319,20 @@ app downlaod
 /* 
 *<!-- snap for all need -->
 */
-
+.snapp-for-all-need{
+    
+}
 
 .snapp-for-all-need-section{
     display: flex;
-
+    position: relative;
+    height: 700px;
 
 }
 
 .snapp-for-all-need-section__image{
     background: url(../img/super-app.jpg) center center/cover;
-    min-height: 28.125rem;
+    height: 50vh;
     width: 50%;
     flex: 0  50%;
     
@@ -356,6 +357,14 @@ app downlaod
     font-size: .775rem;
 }
 
+.snapp-benefits{
+    position: absolute;
+    bottom: 2rem;
+    left: 0;
+    right: 0;
+    padding-bottom:3rem;
+}
+
 .snapp-benefits_item{
     color: #333;
 }
@@ -373,7 +382,6 @@ app downlaod
     align-items: center;
     justify-content: center;
     border-radius: .9rem;
-
 }
 
 .snapp-benefits_title{
@@ -384,6 +392,6 @@ app downlaod
 
 .snapp-benefits_descreption{
     font-weight: 300;
-    font-size: .75rem;
+    font-size: .62rem;
 }
 
