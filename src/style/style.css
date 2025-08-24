@@ -9,8 +9,10 @@ html{
     --text-sm: .775rem ;
     --text-md: .800;
     --text-lg: 1.125rem ;
-    --text-xlg:1.9rem;
-    --text-2xlg: 2.125rem ;
+    --text-xlg: 1.25rem ;
+    --text-2xlg:2.25rem;
+    --text-4xlg: 2.125rem ;
+    --background-primery: #F2F5F8;
 }
 
 p{
@@ -72,11 +74,7 @@ span{
     }
 }
 
-@media (min-width: 1600px) {
-    .container {
-        max-width: 1640px; /* Increased width for larger screens */
-    }
-}
+
 
 input,button{
     font-family: inherit;
@@ -225,7 +223,7 @@ a{
 }
 
 .hero-section__intro__tagline{
-    font-size: var(--text-xlg);
+    font-size: var(--text-2xlg);
     font-weight: 800;
     line-height: 3rem;
 }
@@ -343,14 +341,14 @@ app downlaod
 
 
 .snapp-intro-app-link{
-    background-color:#F2F5F8 ;
+    background-color:var(--background-primery) ;
     padding-bottom: 3.5rem;
     
 }
 
 .snapp-intro-app-link_title{
     text-align: center;
-    font-size: var(--text-2xlg);
+    font-size: var(--text-4xlg);
     font-weight: bold;
     color: #414141;
     padding: 2.5rem 0;
@@ -361,7 +359,7 @@ app downlaod
     display: grid;
     grid-template-columns: repeat(4 , 1fr);
     gap: 2rem;
-    padding: 0px 12.1rem;
+    padding: 0px 7.1rem;
 
 }
 
@@ -481,4 +479,100 @@ app downlaod
     font-weight: 300;
     font-size: var(--text-xs);
 }
+
+
+
+/* 
+* register-section
+*/
+
+.register-section{
+    background-color: var(--background-primery);
+    color: #333;
+    padding: 3rem 15.1rem;
+}
+
+.register-section > .container {
+    display: grid;
+    gap: 3rem;
+}
+
+.driver-fast-register{
+    display: grid;
+    gap: 1.5rem;
+}
+
+.driver-fast-register__tagline{
+    font-size: var(--text-2xlg);
+    font-weight: bold;
+    text-align: center;
+}
+
+.driver-fast-register__description{
+    font-weight: bold;
+    font-size: var(--text-lg);
+    color: #33333361;
+    text-align: center;
+    
+}
+
+.goto-register{
+    padding: .75rem 2rem;
+    border: none;
+    background: #00D170;
+    color: white;
+    font-size: var(--text-lg);
+    font-weight: bold;
+    cursor: pointer;
+    border-radius: .75rem;
+    outline: none;   
+}
+
+.register-section-video > video{
+    width: 100%;
+    border-radius: .6rem;
+    overflow:hidden ;
+}
+
+.goto-register-holder{
+    display: block;
+    justify-self: center;
+    align-self: center;
+}
+
+.register-benefits-section-items{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    gap: 1.5rem;
+}
+
+.register-benefits-section-item{
+    background-color:white;
+    font-size: var(--text-md); 
+    display: flex;
+    border-radius: .75rem;
+    align-items: center;
+    justify-content: center;
+    padding: 1.5rem 1rem;
+    min-height: 12.5rem;
+
+
+}
+
+.register-benefits-section-item > img{
+    width: 120px;
+}
+
+.benefits-section-item__info >h3{
+    font-weight: 600;
+    margin-bottom:.5rem ;
+}
+
+.benefits-section-item__info > p{
+    font-weight: 400;
+    font-size: var(--text-sm);
+    color: #33333388;
+
+}
+
 
