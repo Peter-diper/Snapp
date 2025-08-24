@@ -74,11 +74,7 @@ span{
     }
 }
 
-@media (min-width: 1600px) {
-    .container {
-        max-width: 1640px; /* Increased width for larger screens */
-    }
-}
+
 
 input,button{
     font-family: inherit;
@@ -363,7 +359,7 @@ app downlaod
     display: grid;
     grid-template-columns: repeat(4 , 1fr);
     gap: 2rem;
-    padding: 0px 12.1rem;
+    padding: 0px 7.1rem;
 
 }
 
@@ -557,7 +553,8 @@ app downlaod
     border-radius: .75rem;
     align-items: center;
     justify-content: center;
-    padding: 3rem 2rem;
+    padding: 1.5rem 1rem;
+    min-height: 12.5rem;
 
 
 }
