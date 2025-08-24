@@ -404,9 +404,6 @@ app downlaod
 /* 
 *<!-- snap for all need -->
 */
-.snapp-for-all-need{
-    
-}
 
 .snapp-for-all-need-section{
     display: flex;
@@ -571,8 +568,46 @@ app downlaod
 .benefits-section-item__info > p{
     font-weight: 400;
     font-size: var(--text-sm);
-    color: #33333388;
+    color: #333333b0;
+
+}
+.footer > .container{
+    padding: 2.5rem;
+    display: flex;
+    flex-direction: column;
+
+    gap: 2rem;
 
 }
 
+.footer-links-list{
+    display: flex;
+    justify-content: center;
+    gap: 1rem;
 
+    
+    
+}
+
+.footer-links-list >a {
+    color: inherit;
+    font-size: var(--text-sm);
+    font-weight: 500;
+    color: #3333338d;
+}
+
+.footer-social-icon{
+    display: flex;;
+    justify-content: center;
+    align-items: center;
+    /* padding: 2rem 0; */
+    gap:.3rem ;
+}
+
+.e-sambels-icon{
+    display: flex;
+    justify-content: center;
+}
+.e-sambels-icon >img{
+    width: 100px;
+}
