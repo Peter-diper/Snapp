@@ -611,3 +611,31 @@ app downlaod
 .e-sambels-icon >img{
     width: 100px;
 }
+
+/* 
+*   slider snapp
+*/
+.snapp-slider-section{
+    margin:  4rem 0;
+
+}
+
+.snapp-slider-wrapper{
+    padding: 0 7%;
+}
+
+#snapp-keen-slider{
+    border-radius: 1rem;
+    overflow: hidden;
+}
+
+.keen-slider__slide{
+    height: 25rem;
+
+}
+
+.keen-slider__slide > a > img {
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
